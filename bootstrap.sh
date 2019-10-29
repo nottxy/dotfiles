@@ -22,16 +22,43 @@ sudo pacman -Syyu
 # Install critical packages.
 sudo pacman -Sq --noconfirm base base-devel
 
+# Install tools
+sudo pacman -Sq --noconfirm ibus-rime git tmux xclip code nodejs npm yarn yay aria2
+sudo pacman -Sq --noconfirm calibre postgresql racket
+sudo pacman -S virtualbox virtualbox-guest-iso
+
+# Enable AUR support
+
+# Install more
+yay -Sq --noconfirm google-chrome freeplane typora virtualbox-ext-oracle netease-cloud-music qq-linux
+
+
+# Add chinese language
+# copy .ssh
+# copy shadowsocks_config.json
+
 # Install rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source ~/.cargo/env
 rustup component add rls rust-analysis rust-src rustfmt clippy
 
-# Install tools
-sudo pacman -Sq --noconfirm ibus-rime git calibre tmux xclip code nodejs npm yarn postgresql yay
-sudo pacman -S virtualbox virtualbox-guest-iso
+# Other
+cargo install shadowsocks-rust
+cargo install mcfly
+cargo install newsboat
+cargo install bb
+cargo install fd
 
-# Install more
-yay -Sq --noconfirm google-chrome freeplane typora netease-cloud-music
-yay -S vitrualbox-ext-oracle
+# IntelliJ IDEA & Rust and Database Navigator plugins
 
+# Caps Lock -> Ctrl at Tweaks
+
+# sparse file not allowed error:
+# edit /etc/default/grub
+# comment GRUB_DEFAULT=saved
+# comment GRUB_SAVEDEFAULT=true
+# sudo update-grub
+
+# unknown device type nvme0n1
+# sudo rm /etc/grub.d/60_memtest86+
+# sudo update-grub

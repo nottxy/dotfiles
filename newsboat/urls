@@ -1,0 +1,49 @@
+"query:Unread Articles:unread = \"yes\""
+
+# web
+https://reactjs.org/feed.xml reactjs web
+https://www.robinwieruch.de/index.xml reactjs web
+
+
+# rust
+https://andrewradev.com/feed.xml rust ruby vim
+http://cliffle.com/rss.xml rust
+http://aturon.github.io/atom.xml rust
+https://siliconislandblog.wordpress.com/feed rust
+https://smallcultfollowing.com/babysteps/atom.xml rust
+https://blog.rust-lang.org/feed.xml rust
+https://blog.rust-lang.org/inside-rust/feed.xml rust
+https://blog.x5ff.xyz/blog/index.xml rust
+https://blog.japaric.io/index.xml rust
+https://www.ncameron.org/blog/rss rust
+https://hermanradtke.com/atom.xml rust
+http://jonathanturner.org/feed.xml rust
+https://llogiq.github.io/feed.xml rust
+https://fitzgeraldnick.com/feed.xml rust
+https://www.ralfj.de/blog/feed.xml rust
+https://seanmonstar.com/rss rust
+https://words.steveklabnik.com/feed rust
+https://this-week-in-rust.org/atom.xml rust
+https://rustwasm.github.io/feed.xml rust
+https://tokio.rs/blog/index.xml rust
+https://vorner.github.io/feed.xml rust
+https://boats.gitlab.io/blog/index.xml rust
+
+
+# tech
+https://coolshell.cn/feed tech
+http://blog.kongfy.com/feed tech
+https://cn.engadget.com/rss.xml tech
+https://martinfowler.com/feed.atom tech
+https://8thlight.com/blog/feed/atom.xml tech
+https://jvns.ca/atom.xml tech
+
+
+# other
+https://salttiger.com/feed other book
+https://feeds.feedburner.com/coderprog other book
+
+
+# go
+https://dave.cheney.net/feed/atom go
+

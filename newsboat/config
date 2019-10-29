@@ -1,0 +1,5 @@
+browser firefox
+proxy socks5://127.0.0.1:6666
+use-proxy yes
+refresh-on-startup yes
+reload-threads 10
